@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://dbqfutpweir4g"]
+[gd_scene load_steps=7 format=3 uid="uid://dbqfutpweir4g"]
 
 [ext_resource type="Texture2D" uid="uid://podm2uxlf4f0" path="res://Pink Man/Fall (32x32).png" id="1_gswnh"]
+[ext_resource type="Script" path="res://player.gd" id="1_onbys"]
 [ext_resource type="Texture2D" uid="uid://cnvp1ma2fjay6" path="res://Pink Man/Jump (32x32).png" id="1_w0tnx"]
 [ext_resource type="Texture2D" uid="uid://d3ysp8oq8ot64" path="res://Pink Man/Run (32x32).png" id="2_vv01n"]
 
@@ -36,6 +37,7 @@ radius = 7.0
 height = 22.0
 
 [node name="Player" type="Area2D"]
+script = ExtResource("1_onbys")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
