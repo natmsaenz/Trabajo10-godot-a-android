@@ -1,5 +1,6 @@
-[gd_scene load_steps=25 format=3 uid="uid://ed6b8x53bxle"]
+[gd_scene load_steps=26 format=3 uid="uid://ed6b8x53bxle"]
 
+[ext_resource type="Script" path="res://mob.gd" id="1_eae5c"]
 [ext_resource type="Texture2D" uid="uid://lpmeqm8dqx6h" path="res://Mushroom/Hit-EDIT.jpg" id="1_n0chu"]
 [ext_resource type="Texture2D" uid="uid://ct3f74pl3eldv" path="res://Mushroom/Hit-EDIT(1).jpg" id="2_vm2wy"]
 [ext_resource type="Texture2D" uid="uid://1c0bsbao7s85" path="res://Mushroom/Hit-EDIT(2).jpg" id="3_ps4y4"]
@@ -114,6 +115,7 @@ height = 84.0
 [node name="Mob" type="RigidBody2D"]
 collision_mask = 0
 gravity_scale = 0.0
+script = ExtResource("1_eae5c")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
