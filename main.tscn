@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://ca02qarp5agrr"]
-
-[ext_resource type="PackedScene" uid="uid://dbqfutpweir4g" path="res://player.tscn" id="1_kuofq"]
-
-[node name="Main" type="Node"]
-
-[node name="Player" parent="." instance=ExtResource("1_kuofq")]
