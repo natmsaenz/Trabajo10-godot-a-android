@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Ejecutable">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Ejecutable.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
